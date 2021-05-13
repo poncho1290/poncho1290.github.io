@@ -369,7 +369,13 @@
   </style>
 
   <script>
-      function init() { 
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7ZVP44HYZJ');
+
+    function init() { 
     const catWrapper = document.querySelector('.cat_wrapper')
     const wrapper = document.querySelector('.wrapper')
     const cat = document.querySelector('.cat')
@@ -577,6 +583,7 @@
     
     
     <script src="https://kit.fontawesome.com/ab87be47c6.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZVP44HYZJ"></script>
     
     </body>
 </html>
